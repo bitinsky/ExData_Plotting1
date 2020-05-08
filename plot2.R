@@ -23,6 +23,7 @@ close(file)  #close connection created in readLines
 dt$DateTime <- strptime(paste(dt$Date, dt$Time), "%d/%m/%Y %H:%M:%S") 
 
 png(filename = "plot2.png", width = 480, height = 480, unit = "px")
+par(bg=NA)
 plot(dt$DateTime, dt$Global_active_power,
      type = "l",
      xlab = "",

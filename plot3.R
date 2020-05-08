@@ -31,6 +31,7 @@ close(file)  #close connection created in readLines
 dt$DateTime <- strptime(paste(dt$Date, dt$Time), "%d/%m/%Y %H:%M:%S") 
 
 png(filename = "plot3.png", width = 480, height = 480, unit = "px")
+par(bg=NA)
 plot(dt$DateTime, dt$Sub_metering_1,
      type = "l",
      xlab = "",

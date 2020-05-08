@@ -56,7 +56,7 @@ fully reproduced as well as the code that creates the PNG file.
 
 ## Output Files
 
-|Plot # | My Plot     | Example Plot  |
+|**Plot#** | **My Plot**     | **Example Plot**  |
 |:--|-----------------| ---------------------|
 | 1 | ![plot1.png](plot1.png)  | ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png)  |
 | 2 | ![plot2.png](plot2.png)       |   ![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png)  |

@@ -21,6 +21,7 @@ dt<- read.table(text = grep("^[1,2]/2/2007|Date", readLines(file), value = TRUE)
 close(file)  #close connection created in readLines
 
 png(filename = "plot1.png", width = 480, height = 480, unit = "px")
+par(bg=NA)
 hist(dt$Global_active_power,
      col = "red",
      main = "Global Active Power",

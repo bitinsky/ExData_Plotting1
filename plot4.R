@@ -27,7 +27,7 @@ close(file)  #close connection created in readLines
 dt$DateTime <- strptime(paste(dt$Date, dt$Time), "%d/%m/%Y %H:%M:%S") 
 
 png(filename = "plot4.png", width = 480, height = 480, unit = "px")
-par(mfrow = c(2,2))
+par(mfrow = c(2,2),bg=NA)
 with(dt, {
     
     plot(DateTime, Global_active_power,
